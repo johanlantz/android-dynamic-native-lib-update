@@ -33,4 +33,4 @@ Then at a convenient time, for instance when on Wifi and not doing anything impo
 
 The example supports multiple parallell downloads, MD5 checking and always falls back on the bundled native lib in case of problems. 
 
-ABI compatibility for the native code between versions is assumed.
+ABI compatibility for the native code between versions is assumed. Remove the reference to Context and it will be plain Java.
